@@ -1,0 +1,57 @@
+{
+  "version": "TAS-1 v1.0",
+  "vectors": [
+    {
+      "id": "TV-1",
+      "description": "scalar zero (rank 0)",
+      "input": {
+        "dtype": "float32",
+        "shape": [],
+        "values": 0.0
+      },
+      "serialized_hex": "010000000100000000000000",
+      "gradient_hash_hex": "55cad9c1b25f52dc5b538a030f9293d6b4725f4bb5c6f187edba688aa5a70780"
+    },
+    {
+      "id": "TV-2",
+      "description": "rank-1 vector of ones, length 4",
+      "input": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "serialized_hex": "01000000040000000000803f0000803f0000803f0000803f",
+      "gradient_hash_hex": "9e2c41a06d1f73a897cb2a2c5e0b951595e556ad1c5e78f1f617ad7974ad923b"
+    },
+    {
+      "id": "TV-3",
+      "description": "rank-2 matrix [[1,2],[3,4]]",
+      "input": {
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            3.0,
+            4.0
+          ]
+        ]
+      },
+      "serialized_hex": "0200000002000000020000000000803f000000400000404000008040",
+      "gradient_hash_hex": "500597e55093426e545da291e115ffd4ac2985460bb4b5d5b65a197a74f98669"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "TAS-1 v1.0",
+  "vectors": [
+    {
+      "id": "TV-5",
+      "description": "Layer 2 leaf for compute contribution, weight 1000, cycle 1",
+      "input": {
+        "contributor": "0x000000000000000000000000000000000000beef",
+        "weight": 1000,
+        "contribution_type": 0,
+        "sync_cycle": 1
+      },
+      "leaf_hex": "4696264c0f18124b1c6ae67c91ab7dbbcc3b545e9832e90b35241b2a6f475544"
+    }
+  ]
+}

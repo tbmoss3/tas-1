@@ -1,0 +1,56 @@
+{
+  "version": "TAS-1 v1.0",
+  "vectors": [
+    {
+      "id": "TV-6",
+      "description": "single-leaf tree (root equals leaf)",
+      "leaves_hex": [
+        "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab"
+      ],
+      "root_hex": "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab",
+      "proofs": [
+        []
+      ]
+    },
+    {
+      "id": "TV-7",
+      "description": "two-leaf tree (commutative pair-hash)",
+      "leaves_hex": [
+        "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab",
+        "948e1e101a727f395be1c5b8de4ec9821c57792ed202b568ef5f8a4276273248"
+      ],
+      "root_hex": "2d30772bd8c800e764061104e84624b204999da8b6e0799bb662b287e6b28a22",
+      "proofs": [
+        [
+          "948e1e101a727f395be1c5b8de4ec9821c57792ed202b568ef5f8a4276273248"
+        ],
+        [
+          "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab"
+        ]
+      ]
+    },
+    {
+      "id": "TV-8",
+      "description": "three-leaf tree, odd node promoted unchanged",
+      "leaves_hex": [
+        "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab",
+        "948e1e101a727f395be1c5b8de4ec9821c57792ed202b568ef5f8a4276273248",
+        "ac3ae75c4d9d9704db5f7eda4d64495114781133230d53f00cfc2a3deb21332c"
+      ],
+      "root_hex": "d1cef13f93b2f3274a904c037489145876736899ec0bf03a55fe5e2392fc37ff",
+      "proofs": [
+        [
+          "948e1e101a727f395be1c5b8de4ec9821c57792ed202b568ef5f8a4276273248",
+          "ac3ae75c4d9d9704db5f7eda4d64495114781133230d53f00cfc2a3deb21332c"
+        ],
+        [
+          "e2d09aabf9c1200ec3159fdba3630db828c2abc278c924d8a99011869ea438ab",
+          "ac3ae75c4d9d9704db5f7eda4d64495114781133230d53f00cfc2a3deb21332c"
+        ],
+        [
+          "2d30772bd8c800e764061104e84624b204999da8b6e0799bb662b287e6b28a22"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "TAS-1 v1.0",
+  "vectors": [
+    {
+      "id": "TV-4",
+      "description": "Layer 1 leaf with TV-1 gradient and beef address at cycle 1",
+      "input": {
+        "contributor": "0x000000000000000000000000000000000000beef",
+        "sync_cycle": 1,
+        "gradient_hash_hex": "55cad9c1b25f52dc5b538a030f9293d6b4725f4bb5c6f187edba688aa5a70780"
+      },
+      "leaf_hex": "67eece34b229901a73bedd98cb46d1f77929156db0f66a8dc3429a50652c1f05"
+    }
+  ]
+}
