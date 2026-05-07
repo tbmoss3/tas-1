@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use TAS-1, please cite it as below."
+type: software
+title: "TAS-1: Training Attribution Standard"
+abstract: >
+  An open standard for cryptographic attribution of work in decentralized
+  AI training runs. Specifies canonical byte formats and Merkle-leaf
+  encodings that bind contributor identity, training-cycle index, and
+  gradient-artifact hash into independently-verifiable attribution
+  receipts. v1 covers compute (gradient) attribution; data and capital
+  attribution are anticipated as v1.x extensions.
+authors:
+  - family-names: Moss
+    given-names: Benton
+    affiliation: Kardashev Foundation
+version: "0.1.0"
+date-released: 2026-05-07
+repository-code: "https://github.com/tbmoss3/tas-1"
+url: "https://github.com/tbmoss3/tas-1"
+license: CC0-1.0
+keywords:
+  - decentralized-ai
+  - cryptographic-attribution
+  - merkle-tree
+  - keccak256
+  - ethereum
+  - training-attribution
+  - standard
