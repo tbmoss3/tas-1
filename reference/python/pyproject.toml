@@ -11,6 +11,7 @@ requires-python = ">=3.10"
 dependencies = [
     "eth-utils>=4.0",
     "eth-abi>=5.0",
+    "eth-hash[pycryptodome]>=0.7",
     "numpy>=1.26",
 ]
 
