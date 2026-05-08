@@ -33,7 +33,12 @@ def serialize_tensor(tensor: np.ndarray) -> bytes:
             f"gradient tensor must have float dtype; got {tensor.dtype}"
         )
 
-    arr = np.ascontiguousarray(tensor.astype(np.float32))
+    # NB: np.ascontiguousarray() on a rank-0 array silently promotes to (1,),
+    # which would emit rank=1 in the header and violate spec §4.1 for scalar
+    # gradients. Capture shape from the cast tensor *before* any contiguous
+    # promotion, and rely on tobytes(order='C') to walk in C order regardless
+    # of input strides.
+    arr = tensor.astype(np.float32)
     shape = arr.shape
 
     header = struct.pack("<I", len(shape))

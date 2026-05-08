@@ -174,15 +174,16 @@ Total preimage length: **84 bytes**.
 ```
 contributor   = 0x000000000000000000000000000000000000beef
 sync_cycle    = 1
-gradient_hash = 55cad9c1b25f52dc5b538a030f9293d6b4725f4bb5c6f187edba688aa5a70780
+gradient_hash = 011b4d03dd8c01f1049143cf9c4c817e4b167f1d1b83e5c6f0f10d89ba1e7bce
+                // hash of a true rank-0 fp32 zero (TV-1)
 
 preimage      = 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 be ef
               | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
               | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
-              | 55 ca d9 c1 b2 5f 52 dc 5b 53 8a 03 0f 92 93 d6
-              | b4 72 5f 4b b5 c6 f1 87 ed ba 68 8a a5 a7 07 80
+              | 01 1b 4d 03 dd 8c 01 f1 04 91 43 cf 9c 4c 81 7e
+              | 4b 16 7f 1d 1b 83 e5 c6 f0 f1 0d 89 ba 1e 7b ce
 
-leaf_L1       = 67eece34b229901a73bedd98cb46d1f77929156db0f66a8dc3429a50652c1f05
+leaf_L1       = a59c9b44cf68febef26efb9b5cf5f18dc3437f978b4f71ce1f9847f5806aad0f
 ```
 
 ### Why three fields, no more

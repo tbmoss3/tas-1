@@ -7,9 +7,9 @@
       "input": {
         "contributor": "0x000000000000000000000000000000000000beef",
         "sync_cycle": 1,
-        "gradient_hash_hex": "55cad9c1b25f52dc5b538a030f9293d6b4725f4bb5c6f187edba688aa5a70780"
+        "gradient_hash_hex": "011b4d03dd8c01f1049143cf9c4c817e4b167f1d1b83e5c6f0f10d89ba1e7bce"
       },
-      "leaf_hex": "67eece34b229901a73bedd98cb46d1f77929156db0f66a8dc3429a50652c1f05"
+      "leaf_hex": "a59c9b44cf68febef26efb9b5cf5f18dc3437f978b4f71ce1f9847f5806aad0f"
     }
   ]
 }
