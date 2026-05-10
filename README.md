@@ -82,8 +82,14 @@ See [`spec/v1.md`](spec/v1.md) §5 for the full conformance criteria.
 [CC0 1.0 Universal](LICENSE) — public domain dedication. Use it, fork
 it, brand it, productize it.
 
-## Reference
+## Authorship & Working Group
 
-The first reference implementation was extracted from the
+TAS-1 is authored by **Benton Moss** as a public-good standard. The
+first reference implementation was extracted from the
 [Kardashev Protocol](https://github.com/tbmoss3/kardashev-protocol)
-deployment on Base Sepolia (commit `949584d`).
+deployment on Base Sepolia (commit `949584d`); Kardashev Protocol is
+the first founding member of the **TAS-1 Working Group**.
+
+The Working Group is an open consortium. Other organizations are
+invited to join as peer members — see [`WORKING_GROUP.md`](WORKING_GROUP.md)
+for governance, current members, and how to join.

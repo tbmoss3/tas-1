@@ -12,7 +12,6 @@ abstract: >
 authors:
   - family-names: Moss
     given-names: Benton
-    affiliation: Kardashev Foundation
 version: "0.1.0"
 date-released: 2026-05-07
 repository-code: "https://github.com/tbmoss3/tas-1"
