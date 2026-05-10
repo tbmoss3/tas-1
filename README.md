@@ -85,10 +85,12 @@ TAS-1 v1 covers compute (gradient) attribution. Anticipated extensions:
   primitives. Ships when a Working Group member needs them.
 - **TAS-2 (multi-validator quorum):** removes the lab as the trust
   anchor. Design exploration: [`docs/roadmap/tas-2-sketch.md`](docs/roadmap/tas-2-sketch.md).
-- **TAS-3 (optimistic fraud proofs):** TAO-style bisection challenges.
-  Sketch pending.
+- **TAS-3 (optimistic fraud proofs):** TAO-style bisection challenges
+  with floating-point tolerance bounds. Design exploration:
+  [`docs/roadmap/tas-3-sketch.md`](docs/roadmap/tas-3-sketch.md).
 - **TAS-4 (zk audit checkpoints):** Kaizen / zkLoRA-style end-to-end
-  verifiability. Sketch pending.
+  verifiability via zk-ML proving systems. Design exploration:
+  [`docs/roadmap/tas-4-sketch.md`](docs/roadmap/tas-4-sketch.md).
 
 Per [`WORKING_GROUP.md`](WORKING_GROUP.md), TAS-2+ specs become
 normative only after the Working Group has multiple external members
