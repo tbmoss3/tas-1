@@ -77,6 +77,23 @@ problems. It is intentionally agnostic to:
 
 See [`spec/v1.md`](spec/v1.md) §5 for the full conformance criteria.
 
+## Roadmap
+
+TAS-1 v1 covers compute (gradient) attribution. Anticipated extensions:
+
+- **v1.x (minor):** data and capital attribution leaves using the same
+  primitives. Ships when a Working Group member needs them.
+- **TAS-2 (multi-validator quorum):** removes the lab as the trust
+  anchor. Design exploration: [`docs/roadmap/tas-2-sketch.md`](docs/roadmap/tas-2-sketch.md).
+- **TAS-3 (optimistic fraud proofs):** TAO-style bisection challenges.
+  Sketch pending.
+- **TAS-4 (zk audit checkpoints):** Kaizen / zkLoRA-style end-to-end
+  verifiability. Sketch pending.
+
+Per [`WORKING_GROUP.md`](WORKING_GROUP.md), TAS-2+ specs become
+normative only after the Working Group has multiple external members
+shipping production TAS-1 implementations.
+
 ## License
 
 [CC0 1.0 Universal](LICENSE) — public domain dedication. Use it, fork
